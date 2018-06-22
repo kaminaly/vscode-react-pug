@@ -1,0 +1,37 @@
+{
+    "name": "vscode-react-pug",
+    "displayName": "vscode-react-pug",
+    "description": "Syntax highlighting for pug (babel-plugin-transform-react-pug)",
+    "version": "0.0.1",
+    "publisher": "kaminaly",
+    "icon": "logo.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kaminaly/vscode-react-pug.git"
+    },
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "scopeName": "react.pug",
+                "path": "./syntaxes/react-pug.json",
+                "injectTo": [
+                    "source.js",
+                    "source.ts",
+                    "source.jsx",
+                    "source.js.jsx",
+                    "source.tsx"
+                ],
+                "embeddedLanguages": {
+                    "text.pug": "pug"
+                }
+            }
+        ]
+    }
+}
