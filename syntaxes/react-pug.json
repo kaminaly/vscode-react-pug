@@ -27,7 +27,7 @@
 					"name": "punctuation.definition.string.template.begin.js string.template.js"
 				}
 			},
-			"end": "`",
+			"end": "\\s*(`)",
 			"endCaptures": {
 				"0": {
 					"name": "punctuation.definition.string.template.end.js string.template.js"

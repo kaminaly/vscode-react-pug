@@ -2,7 +2,7 @@
     "name": "vscode-react-pug",
     "displayName": "vscode-react-pug",
     "description": "Syntax highlighting for pug (babel-plugin-transform-react-pug)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "kaminaly",
     "icon": "logo.png",
     "license": "MIT",
@@ -29,7 +29,7 @@
                     "source.tsx"
                 ],
                 "embeddedLanguages": {
-                    "text.pug": "pug"
+                    "react.pug": "jade"
                 }
             }
         ]
