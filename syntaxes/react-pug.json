@@ -4,7 +4,7 @@
 	"patterns": [
 		{
 			"contentName": "react.pug",
-			"begin": "pug\\s*(`)",
+			"begin": "(pug|rj)\\s*(`)",
 			"beginCaptures": {
 				"1": {
 					"name": "entity.name.function.tagged-template.ts",
