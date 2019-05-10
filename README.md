@@ -12,4 +12,10 @@ Inside VSCode, press `Ctrl+P`, and enter:
 ext install vscode-react-pug
 ```
 
+**IMPORTANT:** If you are using `Babel JavaScript` extention, you also need to install `vscode-js-atom-grammar` extention. ([#4][i4])
+
+
 [[Source](https://marketplace.visualstudio.com/items?itemName=kaminaly.vscode-react-pug)]
+
+
+[i4]: https://github.com/kaminaly/vscode-react-pug/issues/4
