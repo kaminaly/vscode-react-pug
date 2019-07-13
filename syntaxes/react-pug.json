@@ -1,21 +1,21 @@
 {
-	"fileTypes": ["js", "jsx", "ts", "tsx"],
-	"injectionSelector": "L:source -comment -string",
-	"patterns": [
-		{
-			"include": "#pug-tagged-template"
-		}
-	],
-	"repository": {
-		"pug-tagged-template": {
-			"begin": "pug`",
-			"end": "`",
-			"patterns": [
-				{
-					"include": "text.pug"
-				}
-			]
-		}
-	},
-	"scopeName": "react.pug"
+  "fileTypes": ["js", "jsx", "ts", "tsx"],
+  "injectionSelector": "L:source -comment -string",
+  "patterns": [
+    {
+      "include": "#pug-tagged-template"
+    }
+  ],
+  "repository": {
+    "pug-tagged-template": {
+      "begin": "pug\\s*`",
+      "end": "\\s*`",
+      "patterns": [
+        {
+          "include": "text.pug"
+        }
+      ]
+    }
+  },
+  "scopeName": "react.pug"
 }
